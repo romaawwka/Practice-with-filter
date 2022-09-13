@@ -1,0 +1,29 @@
+html{
+    height: 100%;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 30, 30);
+}
+.bigbox{
+    display: flex;
+}
+.text{
+    color: white;
+    font-size: 50px;
+    filter: blur(10px);
+    transition: 0.4s;
+    padding: 5px;
+    cursor: pointer;
+}
+.text:hover{
+    transition: 0.4s;
+    filter: blur(0px);
+    padding: 5px;
+    cursor: pointer;
+}
